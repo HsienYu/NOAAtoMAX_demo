@@ -4,6 +4,8 @@ This repository contains a demonstration of how to use the NOAAtoMAX tool to con
 
 ## NOAAtoMAX
 
+data url : https://services.swpc.noaa.gov/text/ace-magnetometer.txt?fbclid=IwAR3aWX7YS-YkqxZnjD30feFwpiKuzogPWJBdfDihRgT-XthAZIgzjc1fD6g
+
 ### Installation
 
 #### Requirements
