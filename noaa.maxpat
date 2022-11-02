@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 113.0, 119.0, 854.0, 551.0 ],
+		"rect" : [ 113.0, 119.0, 979.0, 551.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,61 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 242.0, 201.0, 446.0, 60.0 ],
+					"text" : "#                 Modified Seconds\n# UT Date   Time  Julian   of the   ----------------  GSM Coordinates ---------------\n# YR MO DA  HHMM    Day      Day    S     Bx      By      Bz      Bt     Lat.   Long.\n#------------------------------------------------------------------------------------"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 437.5, 78.0, 150.0, 20.0 ],
+					"text" : "NOAA data_URL"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 328.0, 147.0, 39.0, 22.0 ],
+					"text" : "url $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 328.0, 107.0, 526.0, 35.0 ],
+					"text" : "https://services.swpc.noaa.gov/text/ace-magnetometer.txt?fbclid=IwAR3aWX7YS-YkqxZnjD30feFwpiKuzogPWJBdfDihRgT-XthAZIgzjc1fD6g",
+					"varname" : "message"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.5, 67.0, 150.0, 33.0 ],
+					"patching_rect" : [ 277.5, 67.0, 150.0, 33.0 ],
 					"text" : "interval speed for parsing data from NOAA"
 				}
 
@@ -79,7 +128,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 222.5, 32.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 30 ]
+						"number" : [ 34 ]
 					}
 ,
 					"text" : "autopattr",
@@ -115,34 +164,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 134.0, 343.0, 35.0 ],
-					"text" : "\"2022 11 02  1531   59885   55860    0     0.6     2.9    -8.1     8.6   -70.3    78.2\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-6",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "n4m.monitor.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 287.0, 213.0, 400.0, 220.0 ],
-					"viewvisibility" : 1
+					"patching_rect" : [ 242.0, 263.0, 480.0, 22.0 ],
+					"text" : "\"2022 11 02  1525   59885   55500    0    -0.7     1.9    -7.8     8.1   -75.5   111.2\""
 				}
 
 			}
@@ -223,13 +250,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
@@ -246,6 +266,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -275,6 +302,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -288,27 +322,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "noaa.js",
-				"bootpath" : "~/GitRepos/demoNOAA",
+				"bootpath" : "~/GitRepos/NOAAtoMAX_demo",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
