@@ -1,0 +1,14 @@
+{
+  "name": "demonoaa",
+  "version": "1.0.0",
+  "description": "NOAA to MAXMSP",
+  "main": "noaa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenghsienyu",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
