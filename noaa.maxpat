@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.0, 318.0, 71.0, 20.0 ],
+					"patching_rect" : [ 599.0, 322.0, 71.0, 20.0 ],
 					"text" : "Bt"
 				}
 
@@ -55,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 318.0, 88.0, 20.0 ],
+					"patching_rect" : [ 496.0, 322.0, 88.0, 20.0 ],
 					"text" : "Bz"
 				}
 
@@ -67,8 +67,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 372.0, 50.0, 22.0 ],
-					"text" : "9.8"
+					"patching_rect" : [ 599.0, 376.0, 50.0, 22.0 ],
+					"text" : "9.5"
 				}
 
 			}
@@ -79,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 599.0, 340.0, 57.0, 22.0 ],
+					"patching_rect" : [ 599.0, 344.0, 57.0, 22.0 ],
 					"text" : "zl.mth 10"
 				}
 
@@ -91,8 +91,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 372.0, 50.0, 22.0 ],
-					"text" : "0.4"
+					"patching_rect" : [ 496.0, 376.0, 50.0, 22.0 ],
+					"text" : "-6.6"
 				}
 
 			}
@@ -103,7 +103,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 496.0, 340.0, 51.0, 22.0 ],
+					"patching_rect" : [ 496.0, 344.0, 51.0, 22.0 ],
 					"text" : "zl.mth 9"
 				}
 
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 129.0, 318.0, 71.0, 20.0 ],
+					"patching_rect" : [ 128.0, 322.0, 71.0, 20.0 ],
 					"text" : "Bulk Speed"
 				}
 
@@ -125,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 318.0, 88.0, 20.0 ],
+					"patching_rect" : [ 25.0, 322.0, 88.0, 20.0 ],
 					"text" : "Proton Density"
 				}
 
@@ -137,8 +137,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 372.0, 50.0, 22.0 ],
-					"text" : "450.1"
+					"patching_rect" : [ 128.0, 376.0, 50.0, 22.0 ],
+					"text" : "467.7"
 				}
 
 			}
@@ -149,7 +149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 129.0, 340.0, 51.0, 22.0 ],
+					"patching_rect" : [ 128.0, 344.0, 51.0, 22.0 ],
 					"text" : "zl.mth 8"
 				}
 
@@ -161,8 +161,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 372.0, 50.0, 22.0 ],
-					"text" : "0.8"
+					"patching_rect" : [ 25.0, 376.0, 50.0, 22.0 ],
+					"text" : "1.1"
 				}
 
 			}
@@ -173,7 +173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 26.0, 340.0, 51.0, 22.0 ],
+					"patching_rect" : [ 25.0, 344.0, 51.0, 22.0 ],
 					"text" : "zl.mth 7"
 				}
 
@@ -185,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 159.0, 433.0, 60.0 ],
+					"patching_rect" : [ 25.0, 222.0, 433.0, 60.0 ],
 					"text" : "#                Modified Seconds   -------------  Solar Wind  -----------\n# UT Date   Time  Julian  of the          Proton      Bulk         Ion\n# YR MO DA  HHMM    Day     Day     S    Density     Speed     Temperature\n#-------------------------------------------------------------------------"
 				}
 
@@ -197,8 +197,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 275.0, 322.0, 22.0 ],
-					"text" : "2022 11 2 1727 59885 62820 0 -4.8 8.6 0.4 9.8 2.5 119.2"
+					"patching_rect" : [ 496.0, 286.0, 322.0, 22.0 ],
+					"text" : "2022 11 2 1611 59885 58260 0 -3.5 5.9 -6.6 9.5 -43.9 120.9"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.0, 225.0, 71.0, 22.0 ],
+					"patching_rect" : [ 496.0, 172.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -221,7 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 496.0, 249.0, 176.0, 22.0 ],
+					"patching_rect" : [ 496.0, 196.0, 176.0, 22.0 ],
 					"text" : "route data_ace_magnetometer:"
 				}
 
@@ -233,7 +233,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 225.0, 71.0, 22.0 ],
+					"patching_rect" : [ 25.0, 172.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -245,8 +245,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 282.0, 416.0, 22.0 ],
-					"text" : "2022 11 2 1703 59885 61380 0 0.8 450.1 3.12e+05"
+					"patching_rect" : [ 25.0, 286.0, 416.0, 22.0 ],
+					"text" : "2022 11 2 1619 59885 58740 0 1.1 467.7 1.68e+05"
 				}
 
 			}
@@ -257,7 +257,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 26.0, 249.0, 143.0, 22.0 ],
+					"patching_rect" : [ 25.0, 196.0, 143.0, 22.0 ],
 					"text" : "route data_ace_swepam:"
 				}
 
@@ -269,7 +269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 159.0, 446.0, 60.0 ],
+					"patching_rect" : [ 496.0, 222.0, 446.0, 60.0 ],
 					"text" : "#                 Modified Seconds\n# UT Date   Time  Julian   of the   ----------------  GSM Coordinates ---------------\n# YR MO DA  HHMM    Day      Day    S     Bx      By      Bz      Bt     Lat.   Long.\n#------------------------------------------------------------------------------------"
 				}
 
