@@ -4,6 +4,7 @@ const request = require('request');
 
 
 let intervaltime = 50;
+let data_url = 'https://services.swpc.noaa.gov/text/ace-magnetometer.txt?fbclid=IwAR3aWX7YS-YkqxZnjD30feFwpiKuzogPWJBdfDihRgT-XthAZIgzjc1fD6g';
 
 const promisifiedRequest = function (options) {
     return new Promise((resolve, reject) => {
@@ -28,11 +29,15 @@ Max.addHandler("echo", (msg) => {
     intervaltime = msg;
 });
 
+Max.addHandler("url", (msg) => {
+    data_url = msg;
+});
+
 (async function () {
     while (true) {
 
         const options = {
-            url: 'https://services.swpc.noaa.gov/text/ace-magnetometer.txt?fbclid=IwAR3aWX7YS-YkqxZnjD30feFwpiKuzogPWJBdfDihRgT-XthAZIgzjc1fD6g',
+            url: data_url,
             method: 'GET',
             gzip: true,
             headers: {
