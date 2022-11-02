@@ -19,7 +19,7 @@ or\
 After installing nvm, you can install nodejs using\
 ```nvm install node```\
 After installing node js, you can install NOAAtoMAX using the following command\
-```npm i```\
+```npm i```
 
 #### Usage
 open the noaa.maxmsp patch in Max 8.1.10 or later,\
