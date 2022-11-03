@@ -68,7 +68,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 599.0, 376.0, 50.0, 22.0 ],
-					"text" : "9.5"
+					"text" : "9.3"
 				}
 
 			}
@@ -92,7 +92,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 376.0, 50.0, 22.0 ],
-					"text" : "-6.6"
+					"text" : "0.1"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.0, 376.0, 50.0, 22.0 ],
-					"text" : "467.7"
+					"text" : "492.7"
 				}
 
 			}
@@ -162,7 +162,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 376.0, 50.0, 22.0 ],
-					"text" : "1.1"
+					"text" : "0.8"
 				}
 
 			}
@@ -198,7 +198,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 496.0, 286.0, 322.0, 22.0 ],
-					"text" : "2022 11 2 1611 59885 58260 0 -3.5 5.9 -6.6 9.5 -43.9 120.9"
+					"text" : "2022 11 2 1751 59885 64260 0 -4.1 8.3 0.1 9.3 0.5 116.1"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 286.0, 416.0, 22.0 ],
-					"text" : "2022 11 2 1619 59885 58740 0 1.1 467.7 1.68e+05"
+					"text" : "2022 11 2 1627 59885 59220 1 0.8 492.7 3.22e+05"
 				}
 
 			}
@@ -281,7 +281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.5, 46.0, 150.0, 33.0 ],
+					"patching_rect" : [ 237.5, 57.0, 150.0, 33.0 ],
 					"text" : "interval speed for parsing data from NOAA"
 				}
 
@@ -315,7 +315,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 25.0, 5.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"number" : [ 34 ]
+						"number" : [ 5 ]
 					}
 ,
 					"text" : "autopattr",
@@ -394,6 +394,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
